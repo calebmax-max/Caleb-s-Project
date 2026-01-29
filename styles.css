@@ -1,0 +1,154 @@
+#card1{
+
+    margin-left: 50px;
+    height: 400px;
+    width: 300px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    color: rgb(25, 25, 26);
+    
+}
+#card2{
+
+}
+#card1{
+    background-color: aqua;
+   
+     
+}
+#card1:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+.img{
+    filter: brightness(60%);
+}
+#img1{
+    filter: brightness(60%);
+}
+#h1{
+    color: rgb(26, 197, 188);
+    font-size: 90px;
+    padding-bottom: 200px;
+}
+#par1{
+    font-size: 30px;
+    color: aliceblue;
+    text-align: center; 
+    padding-bottom: 300px;
+}
+#par{
+    color: aliceblue;
+    font-size:90px ;
+}
+#a1{
+    font-size: 30px;
+}
+#bold1{
+    font-size: 40px;
+    color: chartreuse;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.row{ padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+#card2{
+    font-size: 20px;
+    margin-left: 40px;
+}
+#card3{
+    background-color: rgb(186, 193, 189);
+    border-radius: 20px;
+    text-align: center;
+    height: 250px;
+}
+#card4{
+    background-color: rgb(191, 195, 193);
+    text-align: center;
+    border-radius: 20px;
+    font-size: 20px;
+    height: 250px;
+}
+#card5{
+    background-color: rgb(184, 188, 186);
+    text-align: center;
+    border-radius: 20px;
+    font-size: 20px;
+    height: 250px;
+}
+#div1{
+    background-color: aquamarine;
+    height: 500px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+#div2{
+    font-size: 20px;
+}
+#h2{
+    color: rgb(26, 197, 188);
+    font-size: 90px;
+    padding-bottom: 3300px;
+    padding-top: 0px;
+}
+#b3{
+    text-decoration: none; color: aliceblue;
+}
+#vid1{
+    background-color: aquamarine;
+    filter: brightness(60%);
+}
+.video-container {
+    /* Set up the parent container as a positioning context */
+    position: relative;
+    /* Optional: Set a specific width for the container */
+    width: 600px; 
+}
+
+.video-container video {
+    /* Ensure the video takes up 100% of the container width */
+    width: 100%;
+    /* Ensure the video doesn't have extra space beneath it */
+    display: block; 
+}
+
+.video-overlay-text {
+    /* Position the text absolutely within the relative container */
+    position: absolute;
+    /* Place the text in the center (adjust top/left as needed) */
+    top: 50%;
+    left: 50%;
+    /* Use transform to truly center the element */
+    transform: translate(-50%, -50%);
+    /* Optional: Styling for readability */
+    color: white;
+
+    text-align: center;
+}
+#vid2{
+    width: 1500px;
+}
+#par2{
+    font-size: 40px;
+    color: rgb(24, 211, 149);
+    text-align: center;
+}
+#body10{
+    background-image: url(images/bg3.webp);
+    color: rgb(4, 12, 18);
+}
+.carousel-item{
+    transition-duration: 4s;
+}
+#h10{
+    text-align: center;
+
+    font-size: 80px;
+    color: aqua;
+}
