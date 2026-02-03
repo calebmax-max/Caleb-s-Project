@@ -35,7 +35,7 @@
 #h1{
     color: rgb(26, 197, 188);
     font-size: 40px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     text-shadow:6px 1px 8px rgb(199, 23, 23) ;
 }
 #par1{
@@ -49,7 +49,7 @@
 }
 #par{
     color: aliceblue;
-    font-size:40px ;
+    font-size:30px ;
 }
 #a1{
     font-size: 30px;
@@ -197,8 +197,11 @@
 
 #img1{
     
-    clip-path: circle(50%);
+    
 }
 img:hover{
     transform: scale(1.2);
+}
+#mag{
+     filter: brightness(60%);
 }
